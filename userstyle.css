@@ -39,6 +39,13 @@
 
         border: 0;
     }
+    
+    /* Main page news pager */
+    .articlePager {
+	    background-color: var(--bg-secondary-color) !important;
+
+	    border: 0;
+    }
 
     /* staffHeading := Staff category section on the Team tab like Administrator, Moderator */
     /* resourceInfo := Resource title on the project site */
