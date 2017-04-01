@@ -31,6 +31,13 @@
         background: initial;
 	}
 
+    /* Drop down menu tab */
+    .tabMenu, .tabMenu .menuHeader, .tabMenu .blockLinksList {
+        background-color: var(--bg-color) !important;
+		
+        border-color: var(--bg-secondary-color);
+    }
+
     /* Main content container */
     .mainContainer_noSidebar, .mainContainer .mainContent {
         background-color: var(--bg-color) !important;
