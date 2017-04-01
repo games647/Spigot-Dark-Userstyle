@@ -2,6 +2,9 @@
     :root {
         --bg-color: #222;
         --bg-secondary-color: #383838;
+        
+        --txt-color: orange;
+        --txt-secondary-color: grey;
     }
 
     /* Background */
@@ -9,7 +12,7 @@
         background-color: var(--bg-color) !important;
         /* The default text color is black -> grey will make it readable without
         overriding spigot style settings*/
-        color: grey;
+        color: var(--txt-secondary-color);
     }
 
     /* Navigation header subcategories - i.e. "Your Resources" */
@@ -64,7 +67,7 @@
     /* staffHeading := Staff category section on the Team tab like Administrator, Moderator */
     /* resourceInfo := Resource title on the project site */
     .staffHeading, .resourceInfo  {
-        color: orange;
+        color: var(--txt-color);
     }
 
     /* Team entries */
@@ -125,7 +128,7 @@
 
     /* Make the resource page headings under the main content readable */
     .reviews .textHeading, .updates .textHeading {
-        color: orange;
+        color: var(--txt-color);
     }
 
     /* Review response from the author */
