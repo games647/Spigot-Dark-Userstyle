@@ -22,27 +22,31 @@
     }
 
     /* Subcategories - as well as the selected main category item "Resources" */
-    .navTabs .navTab.selected .tabLinks, .hasTabLinks #navigation .navTabs .navTab.selected .navLink {
+    .navTabs .navTab.selected .tabLinks, 
+    .hasTabLinks #navigation .navTabs .navTab.selected .navLink {
         background-color: var(--bg-color) !important;
 															
         /* Remove the white border line between the subcategories and the main content */
         border: 0px;
     }
 
-	/* Remove transition border of the selected tab */
-	#navigation .navTabs .navTab.selected .navLink:before, #navigation .navTabs .navTab.selected .navLink:after {
+	    /* Remove transition border of the selected tab */
+    #navigation .navTabs .navTab.selected .navLink:before, 
+    #navigation .navTabs .navTab.selected .navLink:after {
         background: initial;
 	}
 
     /* Drop down menu tab */
-    .tabMenu, .tabMenu .menuHeader, .tabMenu .blockLinksList {
+    .tabMenu, .tabMenu .menuHeader, 
+    .tabMenu .blockLinksList {
         background-color: var(--bg-color) !important;
 		
         border-color: var(--bg-secondary-color);
     }
 
     /* Main content container */
-    .mainContainer_noSidebar, .mainContainer .mainContent {
+    .mainContainer_noSidebar, 
+    .mainContainer .mainContent {
         background-color: var(--bg-color) !important;
 
         /* Remove the padding for more content space */
@@ -51,7 +55,10 @@
     }
 
     /* Main news site of this website */
-    .articleItem .sectionMain, .articleItem .sectionMain .subHeading, .articleItem .sectionMain .primaryContent, .articleItem .sectionMain .sectionFooter{
+    .articleItem .sectionMain, 
+    .articleItem .sectionMain .subHeading, 
+    .articleItem .sectionMain .primaryContent, 
+    .articleItem .sectionMain .sectionFooter {
         background-color: var(--bg-secondary-color) !important;
 
         border: 0;
@@ -66,7 +73,8 @@
 
     /* staffHeading := Staff category section on the Team tab like Administrator, Moderator */
     /* resourceInfo := Resource title on the project site */
-    .staffHeading, .resourceInfo  {
+    .staffHeading, 
+    .resourceInfo  {
         color: var(--txt-color);
     }
 
@@ -79,12 +87,14 @@
     }
 
     /* Image background color if transparent or smaller */
-    .resourceIcon img, .avatar img {
+    .resourceIcon img, 
+    .avatar img {
         background-color: var(--bg-color) !important;
     }
 
     /* Sidebar boxes including on the Resources tab */
-    .resourceListSidebar .secondaryContent, .sidebar .secondaryContent {
+    .resourceListSidebar .secondaryContent, 
+    .sidebar .secondaryContent {
         background-color: var(--bg-secondary-color) !important;
 
         /* Removes white border on the resources sidebar */
@@ -92,12 +102,15 @@
     }
 
     /* Resource entries on the resource tab */
-    .resourceListItem, .resourceListItem .resourceImage, .resourceListItem, .resourceListItem .resourceStats {
+    .resourceListItem, 
+    .resourceListItem .resourceImage, 
+    .resourceListItem .resourceStats {
         background-color: var(--bg-secondary-color) !important;
     }
 
     /* Header and footer of the main content in the resource tab or "Watched Resources" */
-    .resourceListMain, .sectionMain {
+    .resourceListMain, 
+    .sectionMain {
         background-color: var(--bg-secondary-color) !important;
 
         border: 0;
@@ -110,7 +123,9 @@
     }
 
     /* Resources page main content */
-    .section .resourceUpdate, .likesSummary, .rateBlock {
+    .section .resourceUpdate, 
+    .likesSummary, 
+    .rateBlock {
         background-color: var(--bg-secondary-color) !important;
 
         border: 0 !important;
@@ -127,7 +142,8 @@
     }
 
     /* Make the resource page headings under the main content readable */
-    .reviews .textHeading, .updates .textHeading {
+    .reviews .textHeading, 
+    .updates .textHeading {
         color: var(--txt-color);
     }
 
@@ -152,14 +168,19 @@
     }
 
     /* Forum post author info on the discussion thread */
-    .messageUserInfo, .avatarHolder, .userText {
+    .messageUserInfo, 
+    .avatarHolder, 
+    .userText {
         background-color: var(--bg-color) !important;
 
         border: 0;
     }
 
     /* BB-Codes */
-    .bbCodeBlock, .bbCodeBlock .quoteContainer, .bbCodeBlock .type, .bbCodeBlock .code {
+    .bbCodeBlock, 
+    .bbCodeBlock .quoteContainer, 
+    .bbCodeBlock .type, 
+    .bbCodeBlock .code {
         background-color: var(--bg-color) !important;
 
         border: 0;
