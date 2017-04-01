@@ -18,11 +18,18 @@
         text-shadow: none !important;
     }
 
-    /* Remove the white border line between the subcategories and the main content */
-    .navTabs .navTab.selected .tabLinks {
+    /* Subcategories - as well as the selected main category item "Resources" */
+    .navTabs .navTab.selected .tabLinks, .hasTabLinks #navigation .navTabs .navTab.selected .navLink {
         background-color: var(--bg-color) !important;
+															
+        /* Remove the white border line between the subcategories and the main content */
         border: 0px;
     }
+
+	/* Remove transition border of the selected tab */
+	#navigation .navTabs .navTab.selected .navLink:before, #navigation .navTabs .navTab.selected .navLink:after {
+        background: initial;
+	}
 
     /* Main content container */
     .mainContainer_noSidebar, .mainContainer .mainContent {
