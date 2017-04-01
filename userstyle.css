@@ -93,12 +93,17 @@
         background-color: var(--bg-secondary-color) !important;
     }
 
-    /* Header and footer of the main content in the resource tab */
-    .resourceListMain {
+    /* Header and footer of the main content in the resource tab or "Watched Resources" */
+    .resourceListMain, .sectionMain {
         background-color: var(--bg-secondary-color) !important;
 
         border: 0;
         padding-top: 5px;
+    }
+
+    /* The last entry shouldn't have a white border because we no longer have an white outer container where it could hide this border line */
+    .resourceList .resourceListItem:last-child {
+        border-bottom: 0;
     }
 
     /* Resources page main content */
