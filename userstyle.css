@@ -1,7 +1,7 @@
 @-moz-document domain("www.spigotmc.org") {
     :root {
-        --bg-color: #222;
-        --bg-secondary-color: #383838;
+        --bg-color: #222; /* Black */
+        --bg-secondary-color: #383838; /* dark grey */
         
         --txt-color: orange;
         --txt-secondary-color: grey;
@@ -184,5 +184,20 @@
         background-color: var(--bg-color) !important;
 
         border: 0;
+    }
+    
+	/* Watched categories header */
+    .sectionMain .subHeading {
+        background-color: var(--bg-secondary-color) !important;
+
+        border-top: 0;
+    }
+
+    /* Watched categories content */
+    .sectionMain .categoryList .categoryListItem .categoryInfo,
+    .sectionMain .sectionFooter {
+        background-color: var(--bg-secondary-color) !important;
+
+        border-top: 0;
     }
 }
