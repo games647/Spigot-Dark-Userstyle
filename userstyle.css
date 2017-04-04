@@ -200,4 +200,11 @@
 
         border-top: 0;
     }
+    
+	/* Wiki */
+    .wikiContent .primaryContent {
+        background-color: var(--bg-secondary-color) !important;
+
+        border-bottom: 0;
+    }
 }
