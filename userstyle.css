@@ -185,7 +185,21 @@
 
         border: 0;
     }
-    
+
+    /* Message editor popup heading and footer */
+    .InlineMessageEditor .sectionFooter,
+    .InlineMessageEditor .redactor_toolbar {
+        background-color: var(--bg-secondary-color) !important;
+    }
+	
+    /* Remove white border inside the message editor popup */
+    .InlineMessageEditor .messageContainer,
+    .redactor_box,
+    .redactor_toolbar,
+    .redactor_box iframe {
+        border: 0;
+    }
+
 	/* Watched categories header */
     .sectionMain .subHeading {
         background-color: var(--bg-secondary-color) !important;
