@@ -2,7 +2,7 @@
     :root {
         --bg-color: #222; /* Black */
         --bg-secondary-color: #383838; /* dark grey */
-        
+
         --txt-color: orange;
         --txt-secondary-color: grey;
     }
@@ -22,30 +22,30 @@
     }
 
     /* Subcategories - as well as the selected main category item "Resources" */
-    .navTabs .navTab.selected .tabLinks, 
+    .navTabs .navTab.selected .tabLinks,
     .hasTabLinks #navigation .navTabs .navTab.selected .navLink {
         background-color: var(--bg-color) !important;
-															
+
         /* Remove the white border line between the subcategories and the main content */
         border: 0px;
     }
 
-	    /* Remove transition border of the selected tab */
-    #navigation .navTabs .navTab.selected .navLink:before, 
+	/* Remove transition border of the selected tab */
+    #navigation .navTabs .navTab.selected .navLink:before,
     #navigation .navTabs .navTab.selected .navLink:after {
         background: initial;
 	}
 
     /* Drop down menu tab */
-    .tabMenu, .tabMenu .menuHeader, 
+    .tabMenu, .tabMenu .menuHeader,
     .tabMenu .blockLinksList {
         background-color: var(--bg-color) !important;
-		
+
         border-color: var(--bg-secondary-color);
     }
 
     /* Main content container */
-    .mainContainer_noSidebar, 
+    .mainContainer_noSidebar,
     .mainContainer .mainContent {
         background-color: var(--bg-color) !important;
 
@@ -55,25 +55,25 @@
     }
 
     /* Main news site of this website */
-    .articleItem .sectionMain, 
-    .articleItem .sectionMain .subHeading, 
-    .articleItem .sectionMain .primaryContent, 
+    .articleItem .sectionMain,
+    .articleItem .sectionMain .subHeading,
+    .articleItem .sectionMain .primaryContent,
     .articleItem .sectionMain .sectionFooter {
         background-color: var(--bg-secondary-color) !important;
 
         border: 0;
     }
-    
+
     /* Main page news pager */
     .articlePager {
-	    background-color: var(--bg-secondary-color) !important;
+        background-color: var(--bg-secondary-color) !important;
 
-	    border: 0;
+        border: 0;
     }
 
     /* staffHeading := Staff category section on the Team tab like Administrator, Moderator */
     /* resourceInfo := Resource title on the project site */
-    .staffHeading, 
+    .staffHeading,
     .resourceInfo  {
         color: var(--txt-color);
     }
@@ -87,13 +87,13 @@
     }
 
     /* Image background color if transparent or smaller */
-    .resourceIcon img, 
+    .resourceIcon img,
     .avatar img {
         background-color: var(--bg-color) !important;
     }
 
     /* Sidebar boxes including on the Resources tab */
-    .resourceListSidebar .secondaryContent, 
+    .resourceListSidebar .secondaryContent,
     .sidebar .secondaryContent {
         background-color: var(--bg-secondary-color) !important;
 
@@ -102,14 +102,14 @@
     }
 
     /* Resource entries on the resource tab */
-    .resourceListItem, 
-    .resourceListItem .resourceImage, 
+    .resourceListItem,
+    .resourceListItem .resourceImage,
     .resourceListItem .resourceStats {
         background-color: var(--bg-secondary-color) !important;
     }
 
     /* Header and footer of the main content in the resource tab or "Watched Resources" */
-    .resourceListMain, 
+    .resourceListMain,
     .sectionMain {
         background-color: var(--bg-secondary-color) !important;
 
@@ -123,8 +123,8 @@
     }
 
     /* Resources page main content */
-    .section .resourceUpdate, 
-    .likesSummary, 
+    .section .resourceUpdate,
+    .likesSummary,
     .rateBlock {
         background-color: var(--bg-secondary-color) !important;
 
@@ -142,7 +142,7 @@
     }
 
     /* Make the resource page headings under the main content readable */
-    .reviews .textHeading, 
+    .reviews .textHeading,
     .updates .textHeading {
         color: var(--txt-color);
     }
@@ -168,8 +168,8 @@
     }
 
     /* Forum post author info on the discussion thread */
-    .messageUserInfo, 
-    .avatarHolder, 
+    .messageUserInfo,
+    .avatarHolder,
     .userText {
         background-color: var(--bg-color) !important;
 
@@ -177,9 +177,9 @@
     }
 
     /* BB-Codes */
-    .bbCodeBlock, 
-    .bbCodeBlock .quoteContainer, 
-    .bbCodeBlock .type, 
+    .bbCodeBlock,
+    .bbCodeBlock .quoteContainer,
+    .bbCodeBlock .type,
     .bbCodeBlock .code {
         background-color: var(--bg-color) !important;
 
@@ -191,7 +191,7 @@
     .InlineMessageEditor .redactor_toolbar {
         background-color: var(--bg-secondary-color) !important;
     }
-	
+
     /* Remove white border inside the message editor popup */
     .InlineMessageEditor .messageContainer,
     .redactor_box,
@@ -214,7 +214,7 @@
 
         border-top: 0;
     }
-    
+
 	/* Wiki */
     .wikiContent .primaryContent {
         background-color: var(--bg-secondary-color) !important;
