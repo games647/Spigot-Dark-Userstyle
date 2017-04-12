@@ -1,10 +1,19 @@
 @-moz-document domain("www.spigotmc.org") {
     :root {
+        /* Colors */
         --bg-color: #222; /* Black */
         --bg-secondary-color: #383838; /* dark grey */
 
         --txt-color: orange;
         --txt-secondary-color: grey;
+        
+        /* This will be either none or initial */
+        --display-banner: "/*[[display-baner]]*/";
+    }
+
+    /* Spigot banner with the logo and the info text between the navigation bar and the user info bar */
+    #logoBlock {
+        display: --var(--display-banner);
     }
 
     /* Background */
@@ -30,11 +39,11 @@
         border: 0px;
     }
 
-	/* Remove transition border of the selected tab */
+    /* Remove transition border of the selected tab */
     #navigation .navTabs .navTab.selected .navLink:before,
     #navigation .navTabs .navTab.selected .navLink:after {
         background: initial;
-	}
+     }
 
     /* Drop down menu tab */
     .tabMenu, .tabMenu .menuHeader,
@@ -200,7 +209,7 @@
         border: 0;
     }
 
-	/* Watched categories header */
+    /* Watched categories header */
     .sectionMain .subHeading {
         background-color: var(--bg-secondary-color) !important;
 
@@ -215,7 +224,7 @@
         border-top: 0;
     }
 
-	/* Wiki */
+    /* Wiki */
     .wikiContent .primaryContent {
         background-color: var(--bg-secondary-color) !important;
 

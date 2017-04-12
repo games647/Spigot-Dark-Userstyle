@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2
+
+Toggle the visibility of the spigotmc banner
+
 ## 1.1
 
 * Changed the following page components

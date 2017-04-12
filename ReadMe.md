@@ -7,6 +7,7 @@ Makes the complete SpigotMC site look a bit darker and removes all the white stu
 ## Features
 
 * Dark theme
+* Toggleable spigot banner
 * Removed tons of borders for more content space
 * Follows release cycles so remember to update the theme sometimes on the managment site of the Stylish plugin
 
