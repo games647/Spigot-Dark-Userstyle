@@ -6,9 +6,9 @@
 
         --txt-color: orange;
         --txt-secondary-color: grey;
-        
+
         /* This will be either none or initial */
-        --display-banner: "/*[[display-baner]]*/";
+        --display-banner: "/*[[display-banner]]*/";
     }
 
     /* Spigot banner with the logo and the info text between the navigation bar and the user info bar */
