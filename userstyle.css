@@ -131,6 +131,14 @@
         border-bottom: 0;
     }
 
+    /* Main resource category note like "Resources are being shown from all child categories." */
+    .resourceList .resourceNote {
+        color: var(--txt-color);
+        background-color: var(--bg-color);
+
+        border-bottom: 0;
+    }
+
     /* Resources page main content */
     .section .resourceUpdate,
     .likesSummary,
@@ -214,6 +222,7 @@
         background-color: var(--bg-secondary-color) !important;
 
         border-top: 0;
+        border-bottom: 0;
     }
 
     /* Watched categories content */
@@ -229,5 +238,21 @@
         background-color: var(--bg-secondary-color) !important;
 
         border-bottom: 0;
+    }
+
+    /* Category list on the wiki page */
+    #wikiContent .secondaryContent {
+        background-color: var(--bg-color);
+        border-color: var(--bg-color);
+
+        margin-top: 5px;
+	}
+
+    /* Pager buttons at the button for switching the page */
+    .PageNav a,
+    .PageNav a:hover {
+        background-color: var(--bg-color);
+
+        border: 0;
     }
 }
