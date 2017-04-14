@@ -255,4 +255,22 @@
 
         border: 0;
     }
+
+    /* Search result entries */
+    .searchResult {
+        background-color: var(--bg-secondary-color) !important;
+
+        /* This looks smoother than a white border */
+        border-color: grey !important;
+    }
+
+    /* Search result text summary */
+    .searchResult .snippet a {
+        color: var(--txt-secondary-color);
+    }
+
+    /* Hightlighted search query */
+    .searchResult .snippet .highlight {
+        color: var(--txt-color);
+    }
 }
