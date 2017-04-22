@@ -147,6 +147,14 @@
         border: 0 !important;
     }
 
+    /* Resource updates section */
+    .updateContainer .resourceUpdate,
+    .updateContainer .textHeading {
+        background-color: var(--bg-secondary-color) !important;
+
+        border: 0 !important;
+    }
+
     /* Review*/
     .review {
         background-color: var(--bg-secondary-color) !important;
