@@ -56,10 +56,9 @@
     /* Main content container */
     .mainContainer_noSidebar,
     .mainContainer .mainContent {
-        background-color: var(--bg-color) !important;
+        background-color: var(--bg-secondary-color) !important;
 
         /* Remove the padding for more content space */
-        padding: 0;
         border: 0;
     }
 
@@ -68,7 +67,7 @@
     .articleItem .sectionMain .subHeading,
     .articleItem .sectionMain .primaryContent,
     .articleItem .sectionMain .sectionFooter {
-        background-color: var(--bg-secondary-color) !important;
+        background-color: var(--bg-color) !important;
 
         border: 0;
     }
