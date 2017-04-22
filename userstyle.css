@@ -113,16 +113,22 @@
     .resourceListItem,
     .resourceListItem .resourceImage,
     .resourceListItem .resourceStats {
-        background-color: var(--bg-secondary-color) !important;
+        background-color: var(--bg-color) !important;
+
+        border-color: grey;
     }
 
     /* Header and footer of the main content in the resource tab or "Watched Resources" */
     .resourceListMain,
     .sectionMain {
-        background-color: var(--bg-secondary-color) !important;
+        background-color: var(--bg-color) !important;
 
         border: 0;
         padding-top: 5px;
+    }
+
+    .resourceListMain .actionFilterRow {
+        border-color: grey;
     }
 
     /* The last entry shouldn't have a white border because we no longer have an white outer container where it could hide this border line */
