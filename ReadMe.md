@@ -31,11 +31,6 @@ Makes the complete SpigotMC site look a bit darker and removes all the white stu
 
 ## How to install
 
-1. Download Stylish for your browser
-* [Chrome/Chromium based](https://chrome.google.com/webstore/detail/stylish-custom-themes-for/fjnbnpbmkenffdnngjfgmeleoegfcffe)
-* [Firefox](https://addons.mozilla.org/en-US/firefox/addon/stylish/)
-* [Opera](https://addons.opera.com/en/extensions/details/stylish/)
-* [Safari](https://sobolev.us/stylish/)
-
+1. Download Stylish for your browser [here](https://add0n.com/stylus.html)
 2. Goto the userstyles page: https://userstyles.org/styles/140743/spigot-darker
 3. Install it and try it out on http://spigotmc.org
