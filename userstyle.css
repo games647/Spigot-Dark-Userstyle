@@ -285,4 +285,10 @@
     .searchResult .snippet .highlight {
         color: var(--txt-color);
     }
+
+    /* Dark tabs */
+    .tabs li a {
+        background-color: #555 !important;
+        color: white;
+    }
 }
